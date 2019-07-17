@@ -21,5 +21,6 @@ console.log(environmentConfig.KWT_APP_URL);
 module.exports = {
     getEnvironment,
     isEnvironment,
-    isProduction
+    isProduction,
+    environmentConfig
 };
